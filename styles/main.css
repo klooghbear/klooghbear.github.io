@@ -1,0 +1,20 @@
+body{
+    background-image: url(background2.jpg);
+    background-color: rgb(0, 0, 0);
+    height: 2000px;
+    background-position: center;
+    background-position-y: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 60pt;
+    color:black;
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+p{
+    font-size: 20pt;
+    color: white;
+    text-align: center;
+}

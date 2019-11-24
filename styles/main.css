@@ -9,6 +9,7 @@ body{
     font-family: 'Noto Sans TC', sans-serif;
     width: 90%;
     margin: auto;
+    position: relative;
 
 }
 .pageTitle{
@@ -22,6 +23,10 @@ h2{
     text-align: center;
     margin-top: auto;
 }
+h3{
+    font-size: 20pt;
+    text-align: center;
+}
 main{
     display: grid;
     grid-gap: 4em;
@@ -32,7 +37,7 @@ section{
 }
 .subTitle{
     position: relative;
-    color: white;
+    color: rgb(255, 255, 255);
     border: 3px solid white;
     border-radius: 5px;
     text-align: center;

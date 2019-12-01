@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>sprint2-technical</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <main>
+            <h1 class="pageTitle"><b>JAVASCRIPT & THE DOM</b></h1>
+            <section class="boxStyle">
+                <h2>HTML VS CSS</h2>
+                <div class="textAlign">
+                    <p>
+                        Almost always mentioned in Web Development, HTML and CSS are mandatory tools used to create user intuitive and fuctioning websites but, there is a difference.  HTML is like the skeletal structure of a building.  It provides the necessary framework, like beams, foundations or rooftops.  CSS on the other hand is the design aspects of the building.  It accounts for paint or interior design.  Without HTML or CSS a website would be difficult to creat.
+                    </p>
+                </div>
+                <h2>CONTROL FLOW AND LOOPS</h2>
+                <div class="textAlign">
+                    <p>
+                        Control flow is a natural order in which a program executes or evaluates a set of statements and instructions.  This order can be navigated using conditional statements or loops but will still abide by the Control Flow.
+                    </p>
+                    <p>
+                        An easy way to understand this would be cleaning the house;
+                    </p>
+                    <p>
+                        if (house == dirty) {
+                        <br>
+                            houseClean();
+                        <br>
+                        } else {
+                        <br>
+                            moreMess();
+                        <br>
+                        }
+                        <br>
+                    </p>
+                    <p>
+                        The above example uses a condition statement to check if something is true. If  “house” is dirty then execute the “houseClean()” method.  In any other case call the “moreMess()” method. 
+                    </p>
+                    <p>
+                        Loops are good way to keep a program running until a condition is met.  A good example would gas in a lawnmower.
+                    </p>
+                    <p>
+                        do { <br>
+                                mowLawns();
+                        <br>
+                    } while (gasTank == full)
+                        <br>
+                    </p>
+                    <p>
+                        Here we see that the “mowLawns” method will be invoked until “gasTank” !== full.
+                    </p>
+                </div>
+                <h2>WHAT IS THE DOM?</h2>
+                <div class="textAlign">
+                    <p>
+                        The DOM is a tree of objects that stem from a parent object called the window.  As an acronym it stands for Document Object Model.
+                    </p>
+                    <P>
+                        The DOM is basically used to interact with different elements on a webpage.  It helps with styling, adding or removing elements and provides more malleable JavaScript interactivity.
+                    </P>
+                </div>
+                <h2>ARRAYS VS OBJECTS</h2>
+                <div class="textAlign">
+                    <p>
+                        An Array[] is an arrangement of quantities or elements in rows and columns.  Essentially an Array is a matrix.  An Object is a data construct that provides a description of properties.  Although Objects and Arrays are similar, they are different. 
+                    </p>
+                    <P>
+                        Try to think of an Array as a shopping list.
+                    </P>
+                    <p>
+                        var list = [milk, eggs, butter, bread, carrots, tomatoes];
+                    </p>
+                    <p>
+                        Here we see 6 elements in the array. Unlike people, Arrays count from index 0.  This means the milk would equal index [0], eggs would equal [1] and so on and so forth until tomatoes equals [5].
+                    </p>
+                    <p>
+                        An Object on the other hand is a list of properties which are referenced by keys instead of and index. An example would be;
+                    </p>
+                    <p>
+                        var animal = {
+                            <br>
+                            “dog”
+                            <br>
+                            “cat”
+                            <br>
+                            “horse”
+                            <br>
+                            “cow”
+                            <br>
+                            “chicken”
+                            <br>
+                            }
+                            <br>
+                    </p>
+                    <p>
+                        In order to access an object property, we reference them using a “.” like so;
+                    </p>
+                    <p>
+                        "animal.dog" or "animal.chicken"   
+                    </p>
+                    <p>
+                        Objects can be used in very creative programming techniques and some objects can depend on other objects.   This is known as object orientated programming. 
+                    </p>
+                </div>
+                <h2>FUNCTIONS AND WHY THEY ARE USEFUL</h2>
+                <div class="textAlign">
+                    <p>
+                        A function is a set of rules or commands that dictate how the control flow works.  They are used to implement creative tasks.  A function is also known as a method.
+                    </p>
+                    <P>
+                        Functions take a parameter list which is input.  We then use statements in our function to dictate how the parameter or input is used.  The function then returns a value based on our statement.
+                    </P>
+                    <p>
+                        We can also call functions within functions.  This allows for less duplicate code, best practice and easy readability. 
+                    </p>
+                </div>
+
+            </section>
+        </main>
+        <footer class="boxStyle" id="homeButton">
+            <a href="../index.html">HOME</a>
+        </footer>
+    </body>
+</html>
